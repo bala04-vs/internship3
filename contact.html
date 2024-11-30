@@ -7,24 +7,33 @@
     <style>
     .div1{
         border: 2px solid green;
+
         background-color: rgb(77, 224, 77);
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         gap: 10px;
-        justify-content:center;
+        align-content: center;
         flex-wrap: wrap;
+    }
+
+    .div1 p{
+      
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+     
     }
     </style>
 </head>
 <body>
     <div class="div1">
-      <div><a ><h1>contact us</h1></a></div>  
+      <div><h1><a>contact us</a></h1></div>  
 
-         <div>         <p>email: <a href="mailto:venkatposina03@gamil.com">venkatposina03@gmail.com</a></p>
+         <div> <h3>Email:</h3>        <p><a href="mailto:venkatposina03@gamil.com"  style="text-decoration: none; font-size:20px ;">venkatposina03@gmail.com</a></p>
          </div>
-     <div>      <p>mobile number:  <a href="callto:6281079811">6281079811</a></p>
+     <div> <h3>Mobile number:</h3>     <p>  <a href="callto:6281079811" style="text-decoration: none; font-size:20px;;">6281079811</a></p>
      </div>
-     <div><a href="./index.html">products page</a></div>
+     <div><a href="./index.html" style="text-decoration: none; font-size:20px ; color:rgb(239, 247, 239); border: 1px solid transparent ; background-color: rgb(20, 137, 34);border-radius: 20px;">PRODUCT PAGE</a></div>
     </div>
 
    
